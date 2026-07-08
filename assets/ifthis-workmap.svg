@@ -1,6 +1,6 @@
 <svg width="1200" height="640" viewBox="0 0 1200 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Ifthis public work map</title>
-  <desc id="desc">A dark symbiotic graph connecting Art Seabra and Ifthis to research papers, software instruments, and studio surfaces.</desc>
+  <title id="title">Ifthis public Ærr system map</title>
+  <desc id="desc">A dark symbiotic graph connecting Art Seabra and Ifthis to ÆrrFrame, ÆrrResearch, ÆrrLedger, ÆrrMemory, and ÆrrConsole.</desc>
   <defs>
     <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 300) rotate(90) scale(260 520)">
       <stop stop-color="#7DD3FC" stop-opacity="0.32"/>
@@ -54,13 +54,13 @@
     <circle cx="600" cy="300" r="84" fill="#0D1320" stroke="#7DD3FC" stroke-opacity=".65" stroke-width="1.5"/>
     <circle cx="600" cy="300" r="7" fill="#FDE68A"/>
   </g>
-  <text x="600" y="286" text-anchor="middle" class="core">ART SEABRA</text>
-  <text x="600" y="316" text-anchor="middle" class="small">IFTHIS</text>
-  <text x="600" y="339" text-anchor="middle" class="tiny">RESEARCH -> SOFTWARE -> STUDIO</text>
+  <text x="600" y="282" text-anchor="middle" class="core">ART SEABRA</text>
+  <text x="600" y="312" text-anchor="middle" class="small">IFTHIS / ÆrrFrame</text>
+  <text x="600" y="338" text-anchor="middle" class="tiny">RESEARCH -> SOFTWARE -> STUDIO</text>
 
   <g>
     <rect x="64" y="72" width="290" height="426" rx="22" class="card"/>
-    <text x="94" y="118" class="small" fill="#7DD3FC">RESEARCH</text>
+    <text x="94" y="118" class="small" fill="#7DD3FC">ÆrrResearch</text>
     <text x="94" y="151" class="label">Papers</text>
     <line x1="94" y1="174" x2="324" y2="174" stroke="url(#research)" stroke-opacity=".7"/>
     <circle cx="118" cy="230" r="12" class="node" stroke="url(#research)"/>
@@ -77,20 +77,20 @@
   <g>
     <rect x="455" y="74" width="290" height="446" rx="22" class="card"/>
     <text x="485" y="118" class="small" fill="#FDE68A">SOFTWARE</text>
-    <text x="485" y="151" class="label">Instruments</text>
+    <text x="485" y="151" class="label">ÆrrLedger</text>
     <line x1="485" y1="174" x2="715" y2="174" stroke="url(#software)" stroke-opacity=".7"/>
     <circle cx="510" cy="224" r="12" class="node" stroke="url(#software)"/>
     <text x="536" y="220" class="label">ÆrrLedger</text>
     <text x="536" y="243" class="tiny">receipts / provenance / inquiry cost</text>
     <circle cx="510" cy="310" r="9" class="node" stroke="url(#software)"/>
-    <text x="536" y="307" class="small">Kelvin Console</text>
-    <text x="536" y="330" class="tiny">chaotic visual + sonic instrument</text>
+    <text x="536" y="307" class="small">ÆrrMemory</text>
+    <text x="536" y="330" class="tiny">memory layer / future apps</text>
     <circle cx="510" cy="394" r="9" class="node" stroke="url(#software)"/>
-    <text x="536" y="391" class="small">Arjen's Comet</text>
-    <text x="536" y="414" class="tiny">geometry + sonic tracks</text>
+    <text x="536" y="391" class="small">ÆrrConsole</text>
+    <text x="536" y="414" class="tiny">software instrument family</text>
     <circle cx="510" cy="476" r="9" class="node" stroke="url(#software)"/>
-    <text x="536" y="473" class="small">Pulse</text>
-    <text x="536" y="496" class="tiny">macOS utility for media workflows</text>
+    <text x="536" y="473" class="small">Kelvin / Comet / Pulse</text>
+    <text x="536" y="496" class="tiny">public console examples</text>
   </g>
 
   <g>
