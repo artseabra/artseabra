@@ -1,0 +1,118 @@
+<svg width="1200" height="640" viewBox="0 0 1200 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ifthis public work map</title>
+  <desc id="desc">A dark symbiotic graph connecting Art Seabra and Ifthis to research papers, software instruments, and studio surfaces.</desc>
+  <defs>
+    <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 300) rotate(90) scale(260 520)">
+      <stop stop-color="#7DD3FC" stop-opacity="0.32"/>
+      <stop offset="0.45" stop-color="#C084FC" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#080A10" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="research" x1="145" y1="120" x2="360" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="software" x1="520" y1="95" x2="740" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="studio" x1="845" y1="155" x2="1065" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0ABFC"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.49 0 0 0 0 0.83 0 0 0 0 0.99 0 0 0 0.45 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label { font: 600 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #F8FAFC; letter-spacing: .02em; }
+      .small { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #A7B4C8; letter-spacing: .08em; }
+      .tiny { font: 500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #7F8DA3; letter-spacing: .08em; }
+      .core { font: 700 30px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #FFFFFF; letter-spacing: .03em; }
+      .edge { stroke: #52627A; stroke-opacity: .62; stroke-width: 1.4; }
+      .edge-hot { stroke: #7DD3FC; stroke-opacity: .72; stroke-width: 1.6; }
+      .node { fill: #101723; stroke-width: 1.2; }
+      .card { fill: rgba(8,10,16,.74); stroke: rgba(148,163,184,.22); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="640" rx="28" fill="#080A10"/>
+  <rect x="1" y="1" width="1198" height="638" rx="27" stroke="#1F2937" stroke-opacity=".9"/>
+  <circle cx="600" cy="300" r="360" fill="url(#coreGlow)"/>
+
+  <g opacity=".55">
+    <path d="M93 530C214 394 322 363 474 394C663 433 806 197 1035 205" class="edge"/>
+    <path d="M169 133C292 251 412 273 561 250C722 225 840 368 1025 501" class="edge"/>
+    <path d="M239 505C354 395 414 278 600 300C777 321 834 198 973 144" class="edge"/>
+    <path d="M323 160C436 172 498 211 600 300C692 380 797 438 946 402" class="edge"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <circle cx="600" cy="300" r="84" fill="#0D1320" stroke="#7DD3FC" stroke-opacity=".65" stroke-width="1.5"/>
+    <circle cx="600" cy="300" r="7" fill="#FDE68A"/>
+  </g>
+  <text x="600" y="286" text-anchor="middle" class="core">ART SEABRA</text>
+  <text x="600" y="316" text-anchor="middle" class="small">IFTHIS</text>
+  <text x="600" y="339" text-anchor="middle" class="tiny">RESEARCH -> SOFTWARE -> STUDIO</text>
+
+  <g>
+    <rect x="64" y="72" width="290" height="426" rx="22" class="card"/>
+    <text x="94" y="118" class="small" fill="#7DD3FC">RESEARCH</text>
+    <text x="94" y="151" class="label">Papers</text>
+    <line x1="94" y1="174" x2="324" y2="174" stroke="url(#research)" stroke-opacity=".7"/>
+    <circle cx="118" cy="230" r="12" class="node" stroke="url(#research)"/>
+    <text x="144" y="226" class="label">The Ærr Trinity</text>
+    <text x="144" y="249" class="tiny">main paper</text>
+    <circle cx="118" cy="319" r="8" class="node" stroke="url(#research)"/>
+    <text x="144" y="316" class="small">The Interrogation Collapse</text>
+    <text x="144" y="339" class="tiny">IC⏐CS atom</text>
+    <circle cx="118" cy="406" r="8" class="node" stroke="url(#research)"/>
+    <text x="144" y="403" class="small">The Chaos Nexus of Self</text>
+    <text x="144" y="426" class="tiny">IC⏐CS atom</text>
+  </g>
+
+  <g>
+    <rect x="455" y="74" width="290" height="446" rx="22" class="card"/>
+    <text x="485" y="118" class="small" fill="#FDE68A">SOFTWARE</text>
+    <text x="485" y="151" class="label">Instruments</text>
+    <line x1="485" y1="174" x2="715" y2="174" stroke="url(#software)" stroke-opacity=".7"/>
+    <circle cx="510" cy="224" r="12" class="node" stroke="url(#software)"/>
+    <text x="536" y="220" class="label">ÆrrLedger</text>
+    <text x="536" y="243" class="tiny">receipts / provenance / inquiry cost</text>
+    <circle cx="510" cy="310" r="9" class="node" stroke="url(#software)"/>
+    <text x="536" y="307" class="small">Kelvin Console</text>
+    <text x="536" y="330" class="tiny">chaotic visual + sonic instrument</text>
+    <circle cx="510" cy="394" r="9" class="node" stroke="url(#software)"/>
+    <text x="536" y="391" class="small">Arjen's Comet</text>
+    <text x="536" y="414" class="tiny">geometry + sonic tracks</text>
+    <circle cx="510" cy="476" r="9" class="node" stroke="url(#software)"/>
+    <text x="536" y="473" class="small">Pulse</text>
+    <text x="536" y="496" class="tiny">macOS utility for media workflows</text>
+  </g>
+
+  <g>
+    <rect x="846" y="96" width="290" height="402" rx="22" class="card"/>
+    <text x="876" y="140" class="small" fill="#F0ABFC">STUDIO</text>
+    <text x="876" y="173" class="label">Public Surfaces</text>
+    <line x1="876" y1="196" x2="1106" y2="196" stroke="url(#studio)" stroke-opacity=".7"/>
+    <circle cx="900" cy="253" r="9" class="node" stroke="url(#studio)"/>
+    <text x="926" y="250" class="small">sn.ifth.is/art</text>
+    <text x="926" y="273" class="tiny">identity / routing</text>
+    <circle cx="900" cy="337" r="9" class="node" stroke="url(#studio)"/>
+    <text x="926" y="334" class="small">sn.ifth.is/papers</text>
+    <text x="926" y="357" class="tiny">reader-facing paper route</text>
+    <circle cx="900" cy="421" r="9" class="node" stroke="url(#studio)"/>
+    <text x="926" y="418" class="small">sn.ifth.is/defrag</text>
+    <text x="926" y="441" class="tiny">released utility shelf</text>
+  </g>
+
+  <path d="M354 230 C425 230 475 252 516 284" class="edge-hot"/>
+  <path d="M684 255 C766 236 807 222 846 232" stroke="#F59E0B" stroke-opacity=".64" stroke-width="1.5"/>
+  <path d="M684 404 C777 427 806 426 846 421" stroke="#F0ABFC" stroke-opacity=".6" stroke-width="1.5"/>
+
+  <text x="76" y="568" class="tiny">PUBLIC MAP, NOT PRIVATE VAULT CONTENT</text>
+  <text x="1124" y="568" text-anchor="end" class="tiny">REVIEWED 2026-07-08</text>
+</svg>
