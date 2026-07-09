@@ -6,13 +6,13 @@ Founder / scientist / director at **Ifthis**.
 
 Ifthis is still simple: **Research -> Software -> Studio**.
 
-The main offering is the **Ærr principle**. Inside it, the public system tokenizes as **ÆrrFrame**, **ÆrrResearch**, **ÆrrLedger**, **ÆrrMemory**, and **ÆrrConsole**.
+The main offering is **ÆrrPrinciple**. Inside it, the public system tokenizes as **ÆrrFrame**, **ÆrrResearch**, **ÆrrLedger**, **ÆrrMemory**, and **ÆrrConsole**.
 
 <p align="center">
   <img src="./assets/ifthis-workmap.svg" alt="Ifthis public work map: ÆrrFrame, ÆrrResearch, ÆrrLedger, ÆrrMemory, and ÆrrConsole." width="100%">
 </p>
 
-## Ærr System
+## ÆrrSystem
 
 | Surface | Function |
 | --- | --- |
@@ -38,7 +38,7 @@ The main offering is the **Ærr principle**. Inside it, the public system tokeni
 | --- | --- | --- |
 | **ÆrrLedger** | [input sandbox](https://aerrledger.vercel.app/input-sandbox) | Provenance, receipt, and inquiry-accounting instrument |
 | **ÆrrMemory** | in development | Memory layer for captured context, source boundaries, and future applications |
-| **ÆrrConsole** | public instruments | Engineering family for software surfaces built from the Ærr principle |
+| **ÆrrConsole** | public instruments | Engineering family for software surfaces built from ÆrrPrinciple |
 | Kelvin Console | [live console](https://kelvin-console-v18-epistemic-horizo.vercel.app) | Chaotic-map visual / sonic instrument |
 | Arjen's Comet | [public route](https://kelvin-console-archive.vercel.app/arjens-comet) | Square-root geometry and sonic tracks |
 | Pulse | [product page](https://sn.ifth.is/defrag/pulse) | macOS drive-awake utility for media workflows |
