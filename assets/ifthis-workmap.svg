@@ -64,7 +64,7 @@
     <text x="94" y="151" class="label">Papers</text>
     <line x1="94" y1="174" x2="324" y2="174" stroke="url(#research)" stroke-opacity=".7"/>
     <circle cx="118" cy="230" r="12" class="node" stroke="url(#research)"/>
-    <text x="144" y="226" class="label">The Ærr Trinity</text>
+    <text x="144" y="226" class="label">ÆrrTrinity</text>
     <text x="144" y="249" class="tiny">main paper</text>
     <circle cx="118" cy="319" r="8" class="node" stroke="url(#research)"/>
     <text x="144" y="316" class="small">The Interrogation Collapse</text>

@@ -28,7 +28,7 @@ The main offering is **ÆrrPrinciple**. Inside it, the public system tokenizes a
 
 | Paper | Public surface | Role |
 | --- | --- | --- |
-| **The Ærr Trinity** | [paper folder](https://github.com/artseabra/aerr-frame/tree/main/papers/aerr-trinity) | Main paper: cost of inquiry at three orders |
+| **ÆrrTrinity** | [paper folder](https://github.com/artseabra/aerr-frame/tree/main/papers/aerr-trinity) | Main paper: cost of inquiry at three orders |
 | The Interrogation Collapse | [paper folder](https://github.com/artseabra/aerr-frame/tree/main/papers/ic-cs/the-interrogation-collapse) | IC⏐CS atom: epistemic validity under interrogation |
 | The Chaos Nexus of Self | [paper folder](https://github.com/artseabra/aerr-frame/tree/main/papers/ic-cs/the-chaos-nexus-of-self) | IC⏐CS atom: identity as strange attractor |
 
@@ -55,6 +55,6 @@ The main offering is **ÆrrPrinciple**. Inside it, the public system tokenizes a
 
 Public here means inspectable, readable, runnable, or deliberately routed. It does not mean the private vault, unpublished drafts, internal sensor systems, or provenance repos are public dependencies.
 
-The main public research line is **The Ærr Trinity**. The main software line is **ÆrrLedger**. The engineering line is **ÆrrConsole**. The memory line is **ÆrrMemory**.
+The main public research line is **ÆrrTrinity**. The main software line is **ÆrrLedger**. The engineering line is **ÆrrConsole**. The memory line is **ÆrrMemory**.
 
 Website: [sn.ifth.is/art](https://sn.ifth.is/art)
